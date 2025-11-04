@@ -1,11 +1,10 @@
-# 🧠 CSE 574-D: Introduction to Machine Learning – Assignment 1  
-### **Classification and Regression Methods from Scratch**
+# 🧠 Classification and Regression Methods from Scratch
 
 ---
 
 ## 📝 Description
 Implementation of core **machine learning algorithms** — Logistic Regression, Linear Regression, and Ridge Regression — from scratch using Python and NumPy.  
-Includes full **data preprocessing**, **visualization**, and **model evaluation** for multiple datasets as part of *CSE 574: Introduction to Machine Learning (Fall 2023)*.
+Includes full **data preprocessing**, **visualization**, and **model evaluation** for multiple datasets.
 
 ---
 
@@ -31,7 +30,6 @@ This project focuses on understanding the mathematical foundation of machine lea
 
 ---
 
-## 🧩 Assignment Parts
 
 ### **Part 1: Data Preprocessing (10 points)**
 - Handle missing values, outliers, normalization, and encoding.
@@ -61,7 +59,7 @@ w = (X^T X + λI)^{-1} X^T y
 \]
 - Compare with linear regression and visualize λ vs. MSE.
 
-### **Bonus (+10 points)**
+### **Extra Task**
 - Implement **Gradient Descent for Ridge Regression**.  
 - Implement **Elastic Net Regularization** (L1 + L2).
 
