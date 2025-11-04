@@ -31,13 +31,13 @@ This project focuses on understanding the mathematical foundation of machine lea
 ---
 
 
-### **Part 1: Data Preprocessing (10 points)**
+### **Part 1: Data Preprocessing **
 - Handle missing values, outliers, normalization, and encoding.
 - Generate correlation plots and feature visualizations.
 - Save cleaned datasets as:
 
 
-### **Part 2: Logistic Regression (40 points)**
+### **Part 2: Logistic Regression **
 - Implement logistic regression from scratch using **gradient descent** and the **sigmoid** function.
 - Train on the *Penguins dataset* for binary classification.
 - Target Accuracy: ≥ 64%.
@@ -45,14 +45,14 @@ This project focuses on understanding the mathematical foundation of machine lea
 - Save model weights to:
 
 
-### **Part 3: Linear Regression (25 points)**
+### **Part 3: Linear Regression **
 - Implement **Ordinary Least Squares (OLS)** using:
 \[
 w = (X^T X)^{-1} X^T y
 \]
 - Evaluate using **Mean Squared Error (MSE)** and scatter plots.
 
-### **Part 4: Ridge Regression (25 points)**
+### **Part 4: Ridge Regression **
 - Extend OLS by adding **L2 regularization**:
 \[
 w = (X^T X + λI)^{-1} X^T y
